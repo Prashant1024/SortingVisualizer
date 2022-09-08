@@ -18,6 +18,8 @@ public class SortingVisualizer{
         sortingObj = new Sorting();
         frame.add(sortingObj);
         sortingObj.repaint();
+
+        //Try catch block
         try{
             sortingObj.SelectionSort();
         }catch(Exception e){
